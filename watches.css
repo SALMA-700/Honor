@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(248, 218, 218);
+    margin: -10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+nav div img {
+    width: 300px;
+}
+nav div ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav div ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav div ul li:hover{
+    color: rgb(224, 114, 136);
+    transition: 0.5s;
+}
+nav button {
+    border: none;
+    background-color:rgb(224, 114, 136); 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+nav button:hover{
+    color: black;
+    background-color: rgb(214, 126, 144);
+    transition: 0.5s;
+}
+main  {
+    display: flex;
+    margin: 30px;
+}
+.f {
+margin: 60px 0 ;
+
+}
+.big {
+/* width: 50px; */
+margin:  -50px 0 0 -50px;
+/* float: left; */
+}
+.big img{
+width: 800px ;
+height: auto;
+cursor: pointer;
+}
+.par{
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: 0px;
+    width: 1000px;
+}
+.par h1{
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0px 0 100px;
+    font-size: 80px;
+    margin: 60px 10px 0 0  ;
+}
+.par h2{
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0px 0 100px;
+    font-size: 30px;
+    color: rgb(255, 172, 188);
+    letter-spacing: 5px;
+}
+.par p{
+    width: 60%;
+    padding:0 0 0 100px ;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+
+
+}
+.small{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    padding: 30px;
+}
+.small img{
+    width: 140px;
+}
+.small h2{
+    margin: 0 40px;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+.small p{
+    margin: 0 50px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: rgb(253, 179, 194);
+}
+.p1 {
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(224, 247, 239);
+    margin: 20px;
+    padding: 30px;
+    border-bottom: 5px solid gray;
+    cursor: pointer;
+}
+.p2 {
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(224, 247, 239);
+    margin: 20px;
+    padding: 30px;  
+    border-bottom: 5px solid gray; 
+    cursor: pointer;
+}
+.p3{
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(224, 247, 239);
+    margin: 20px;
+    padding: 30px;
+    border-bottom: 5px solid gray;
+    cursor: pointer;
+}
